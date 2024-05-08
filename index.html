@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="index.css">
+	<title>Robot</title>
+</head>
+
+
+<body>
+
+
+	<div id="info">
+		<div id="close">
+			<a href="#" onclick="Hide(info);">X</a>
+		</div>
+		<div id="announcement-title">
+			<title-1> Welcome to my Robot </title-1>
+		</div>
+		<div id="announcement">
+			<paragraph-1>
+				This is my robot. To the right is a GUI implemented with the pulgin "dat.gui." 
+				There you can find controls to toggle on and off specific lights and move parts of the Robot's body.
+				There are a few built-in commands that toggle the types of cameras used. You can activate these cameras by simplying using your keyboard.
+			</paragraph-1>
+		</div>
+		<div id = "controls">
+			<paragraph-2>
+				<br>1 -- Orbit Camera
+				<br>2 -- Robot POV Camera
+			</paragraph-2>
+		</div>
+		
+	</div>
+
+	<script type="module" src="/main.js">
+
+	</script>
+
+	<script>
+		function Hide(HideID) {
+			HideID.style.display = "none";
+		}
+	</script>
+
+
+
+
+</body>
+
+</html>
